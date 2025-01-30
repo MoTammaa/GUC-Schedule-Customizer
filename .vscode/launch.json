@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Debugger: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "python": "python"
+    },
+    {
+      "name": "Run schedule.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/schedule.py",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ]
+}
